@@ -1,0 +1,101 @@
+/*h3 scrolling css */
+
+/*.scrollable-h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: all 0.3s;
+    width: 100%;
+    display: block;
+    position: relative;
+    
+  }
+  
+  
+  
+  .scrollable-h3.initial {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  
+    .card:hover .scrollable-h3 {
+      white-space: nowrap;
+      overflow: visible;
+      text-overflow: initial;
+      animation: scroll 5s linear infinite;
+      
+    }
+    
+    @keyframes scroll {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }*/
+    
+   /* styles.css */
+.beautiful-heading {
+  font-size: 2.5rem;
+  color: #007bff;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background: linear-gradient(135deg, #f06, #9c0);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
+  font-family: 'Arial', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Optional hover effect */
+.beautiful-heading:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+ /*h3 scrolling css */
+
+ .scrollable-h3 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: all 0.3s;
+  width: 100%;
+  display: block;
+  position: relative;
+  
+}
+
+
+
+.scrollable-h3.initial {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+  .card:hover .scrollable-h3 {
+    white-space: nowrap;
+    overflow: visible;
+    text-overflow: initial;
+    width: 150%;
+    animation: scroll 4s linear infinite;
+    
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

@@ -1,0 +1,49 @@
+.scroll-animation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 0;
+    padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  /*.image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;   
+  }*/
+
+  .imageLeft {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;   
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Responsive layout for viewport width less than 1000px */
+@media (max-width: 1000px) {
+  .scroll-animation {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .image,
+  .content {
+    width: 100%;
+  }
+
+  .image {
+    justify-content: center;
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+}

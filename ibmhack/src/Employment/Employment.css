@@ -1,0 +1,137 @@
+.employment-title{
+  font-size: 2.5rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: linear-gradient(135deg, #ffde07, #3498db);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1px;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+  
+  p{
+    color: black;
+    margin: 10px;
+  }
+/* CareerOpportunities.css */
+
+/* Adding a background color and padding to the h3 element */
+/* CareerOpportunities.css */
+
+/* Styling the h3 element with a gradient background and text shadow */
+.gradient-employment-heading{
+  background: linear-gradient(45deg, #3498db, #e74c3c);
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+
+  /*Opportunities Section */
+
+  /* CareerOpportunities.css */
+/*.career-opportunities {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+section-header {
+  background-color: #f7f7f7;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.section-content {
+  padding: 10px;
+  background-color: #fff;
+}
+
+.active .section-header {
+  background-color: #e0e0e0;
+}
+
+.active .section-content {
+  display: block;
+}*/
+
+/* CareerOpportunities.css */
+
+.subtitle{
+  color: black;
+  font-weight: bold;
+  font-size: large;
+}
+.career-opportunities {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.section-header {
+  background-color: #f0f0f0; /* Default background for inactive sections */
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.section-header.active {
+  background-color: #3498db; /* Background for active section title bar */
+}
+
+.section-header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black; /* Text color for section title */
+}
+
+.section-content {
+  padding: 10px;
+  background: linear-gradient(to bottom, #fff, #9ed8ff); /* Gradient for content background */
+  color: black; /* Text color for content */
+  display: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.active .section-content {
+  display: block;
+}
+
+#sub-section-content{
+  margin: 0px 10px;
+}
+

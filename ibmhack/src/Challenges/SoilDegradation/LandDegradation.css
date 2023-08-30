@@ -1,0 +1,94 @@
+#land-degradation-title{
+  font-size: 2.5rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: linear-gradient(135deg, #ffde07, #3498db);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1px;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.land-degradation-container {
+    background: linear-gradient(to bottom, #ffffff, #77ff77);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  
+  
+  .land-degradation-container h2 {
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .land-degradation-container p {
+    color:black;
+    margin-bottom: 15px;
+    font-style: italic;
+  }
+  
+  .land-degradation-container ul {
+    list-style-type: disc;
+    color: black;
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .land-degradation-container li {
+    margin-bottom: 8px;
+  }
+  
+  /* Interactive effect */
+  .land-degradation-container ul li::before {
+    content: '\2022';
+    color: #f4f4f4;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  .land-degradation-container p::selection,
+  .land-degradation-container li::selection {
+    background-color: #f4f4f4;
+    color: #354f69;
+  }
+  
+  .land-degradation-container p::-moz-selection,
+  .land-degradation-container li::-moz-selection {
+    background-color: #f4f4f4;
+    color: #354f69;
+  }
+
+  /* styles.css */
+.beautiful-heading {
+    font-size: 2.5rem;
+    color: #007bff;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: linear-gradient(135deg, #f06, #9c0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1px;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Optional hover effect */
+  .beautiful-heading:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  

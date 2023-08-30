@@ -1,0 +1,35 @@
+.colorful-text-container {
+  background: linear-gradient(135deg, #667eea, #764ba2); /* Cool gradient background */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.topic-heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff; /* White font color for contrast */
+  margin-bottom: 10px;
+}
+
+.points-list {
+  list-style-type: disc;
+  color: #f1faee; /* Lighter font color for points */
+  margin-left: 20px;
+}
+
+#information-access-title{
+  font-size: 2.5rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: linear-gradient(135deg, #ffde07, #3498db);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1px;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
